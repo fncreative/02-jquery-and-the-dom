@@ -17,3 +17,7 @@ address a {
 .byline {
   color: rgb(136, 136, 136);
 }
+
+.template {
+  display: none;
+}
