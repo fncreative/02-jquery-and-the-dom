@@ -12,8 +12,8 @@ function Article (rawDataObj) {
   this.title = title;
   this.category = category;
   this.author = author;
-  this.authorUrl = url;
-  this.publishedOn = published;
+  this.authorUrl = authorUrl;
+  this.publishedOn = publishedOn;
   this.body = body;
 }
 
