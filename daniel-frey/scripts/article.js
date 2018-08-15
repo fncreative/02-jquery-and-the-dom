@@ -35,6 +35,22 @@ Article.prototype.toHtml = function() {
       3. article title,
       4. article body, and
       5. publication date. */
+  $('#articles')
+    .find('article')
+    .attr('data-category', this.category)
+    .find('h1')
+    .text(this.title)
+    .end()
+    .find('a')
+    .text(this.author)
+    .attr('href', this.authorUrl)
+    .end()
+    .find('time')
+    .attr('datetime', this.publishedOn)
+    .end()
+    .find('.article-body')
+    .html(this.body);
+
 
   // REVIEW: Display the date as a relative number of 'days ago'
   $newArticle.find('time').html('about ' + parseInt((new Date() - new Date(this.publishedOn))/60/60/24/1000) + ' days ago');
