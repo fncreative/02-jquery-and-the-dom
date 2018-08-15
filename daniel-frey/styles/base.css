@@ -1,0 +1,24 @@
+body {
+  margin: 0 auto;
+  padding: 10px;
+  font-family: arial, 'sans-serif';
+}
+
+address, time {
+  display: inline-block;
+  color: rgb(136, 136, 136);
+}
+
+h1, h2 {
+  font-family: arial, 'sans-serif';
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+.article-body img{
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}

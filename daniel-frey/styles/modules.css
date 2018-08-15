@@ -1,0 +1,19 @@
+.nav-icons a {
+  color: rgb(136, 136, 136);
+  text-decoration: none;
+}
+.headermain {
+  background-color: rgb(255, 234, 169);
+  box-sizing: border-box;
+  padding: 0px 0px 5px 10px;
+}
+
+address a {
+  font-style: italic, bold;
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}
+
+.byline {
+  color: rgb(136, 136, 136);
+}
