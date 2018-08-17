@@ -39,6 +39,7 @@ Article.prototype.toHtml = function() {
   $newArticle.find('h1').text(this.title);
   $newArticle.find('a').text(this.author).attr('href', this.authorUrl);
   $newArticle.find('time').attr('datetime', this.publishedOn);
+  $newArticle.find('time').html('about ' + parseInt((new Date() - new Date(this.publishedOn))/60/60/24/1000) + ' days ago');
   $newArticle.find('.article-body').html(this.body);
 
 
