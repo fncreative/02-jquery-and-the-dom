@@ -10,9 +10,10 @@
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/modules.css">
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-  <header class="clearfix">
+  <header class="clearfix headermain">
     <section class="heading-group-h1">
       <h1>
         Kilovolt Blog!
@@ -21,7 +22,7 @@
     </section>
     <nav>
       <div class="icon-menu"></div>
-      <ul>
+      <ul class="nav-icons">
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
@@ -34,11 +35,11 @@
       <article class="template" data-category="cat">
         <header>
           <h1>Title</h1>
-          <div>
+          <div class="byline">
             By <address><a href="">Author Name</a></address>
             published <time datetime="2000-01-01">Publish Time</time>
             <!-- COMMENT: What is the <time> HTML element used for? How does this connect to our JS files?  -->
-            <!-- PUT YOUR RESPONSE HERE -->
+            <!-- The time element is used in the .js for the sorting of the article, allowing the newest article to appear at the top of the screen. -->
           </div>
         </header>
         <section class="article-body"></section>
@@ -49,6 +50,7 @@
     &copy; 2018 Code Fellows | Static Blog | Happy Ipsum!
   </footer>
 <!-- // TODO: Include any/all needed script tags -->
-
+  <script src="./scripts/blogArticles.js"></script>
+  <script src="./scripts/article.js"></script>
 </body>
 </html>

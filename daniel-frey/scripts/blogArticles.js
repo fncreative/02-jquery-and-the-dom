@@ -1,7 +1,9 @@
 'use strict';
 
 // COMMENT: How is this data utilized within our blog app? What is the structure of this data (your response should include the terms "object", "array", and "key/value pairs")?
-// PUT YOUR RESPONSE HERE
+// The data is utilized by the article.js file to generate a “blog article” from the data in the array into html elements that have been cloned on the webpage.
+// The data for each article is saved in an object structure, which is then bundled into an array which is iterated through by the js.
+// The array is then iterated through each of the object instances that are within the array to generate the data to be displayed within the html
 
 let rawData = [
   {

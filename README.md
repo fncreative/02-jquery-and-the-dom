@@ -70,26 +70,47 @@ _Your repository must include:_
 _Your README.md must include:_
 
 ```md
-# Project Name
+# Code 301 Lab 02 - Adding articles to the blog.
 
-**Author**: Your Name Goes Here
+**Author**: Daniel / Candice
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+We are taking a list of articles and appending them to an HTML document on the fly. If this application were attached to a database, it would continue to add each newly published article
+as they were created.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+You would need to clone our repo, make sure you had live-server installed, and then access the index.html file. Simple!
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+jQuery, CSS, HTML. Using an array and a constructor to create new articles. 
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+Author: Candice 'canned-ice' Thomas <candicebthomas@gmail.com>
+Date: Wed Aug 15 12:33:57 2018 -0700 - replaced for loops with forEach
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+Author: Candice 'canned-ice' Thomas <candicebthomas@gmail.com>
+Date: Wed Aug 15 11:12:47 2018 -070 - added jquery traversal of article
+
+Author: Daniel Frey <dann.frey@me.com>
+Date: Wed Aug 15 10:39:39 2018 -0700 - updated the PRT, and fixed object constructor
+
+Author: Daniel Frey <dann.frey@me.com>
+Date: Wed Aug 15 10:21:01 2018 -0700 - more css changes
+
+Author: Daniel Frey <dann.frey@me.com>
+Date: Wed Aug 15 10:13:58 2018 -0700 - started on js
+
+Author: Daniel Frey <dann.frey@me.com>
+Date: Wed Aug 15 09:55:14 2018 -0700 - added css classes
+
+Author: Daniel Frey <dann.frey@me.com>
+Date: Wed Aug 15 09:49:27 2018 -0700 - added css
+
+Author: Daniel Frey <dann.frey@me.com>
+Date: Wed Aug 15 08:42:54 2018 -0700 - created folder
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+Thank you to Koko and John for all of their help in resolving our infinite loop.
 -->
 ```
